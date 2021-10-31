@@ -1,0 +1,255 @@
+
+body{
+    background-image: url("../image/new/5555.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-display:30% ;
+}   
+.header-span{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 5px;
+}
+.header-span:hover{
+    color: rgb(32, 93, 104);
+}
+.header-span span{
+    color: rgb(32, 93, 104);
+}
+.upper-bar{
+    background-color: rgba(39, 155, 155, 0.719);
+}
+#nav{
+    background-color: teal;
+}
+.firstn{
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(158, 156, 50);
+}
+.lastn{
+    font-family:cursive;
+    font-size: larger;
+    color: rgb(150, 58, 58);
+}
+.firstn:hover{
+    color: rgb(150, 58, 58);
+}
+.lastn:hover{
+    color: rgb(158, 156, 50);
+}
+#search{
+    margin-left: 150px; 
+    position: relative;
+    top: 5px;
+}
+#input{
+    position: relative;
+    top: 5px;
+    border-radius: 5px;
+}
+#input:hover{
+    border: rgba(42, 156, 137, 0.6) solid 2px;
+}
+#main-nav{
+    color: turquoise;
+    font-size: larger;
+    font-weight: bold ;
+}
+#search:hover{
+    color: rgba(150, 150, 150, 0.342);
+    border-radius: 4px;
+}
+#Side-content{
+    border: rgba(70, 131, 180, 0.692) solid 2px;
+    background-color: rgba(104, 194, 230, 0.651);
+    border-radius: 10px 10px 0 0;
+    min-width: 400px;
+    height: 740px;
+    float: left;
+}
+#Side-content p{
+    font-size:40px;
+    position: relative;
+    left: 80px;
+    top: 25px;
+}
+.clear{
+    clear: both;
+}
+.contant{
+    margin-left: 450px;
+    margin-top: 0;
+}
+#upper-navbar{
+    position: relative;
+}
+#upper-navbar hr{
+    border:rgba(156, 43, 43, 0) solid 1px;
+}
+.item{
+    background-color: rgba(14, 192, 148, 0.751);
+    color: rgb(255, 255, 255);
+    display: flex;
+    max-width: 1100px;
+    margin-bottom:40px;
+    border: mediumaquamarine solid 1px;
+    border-radius: 10px;
+}
+.item img{
+    min-width: 251px;
+    border-radius: 10px;                                
+}
+.item p{
+    margin-left:30px;
+    margin-top: 20px;
+}
+p span{
+    font-size:30px;
+    display: block;
+    font-weight: bold;
+    font-family:serif
+}
+#mainp button{
+    background-color: teal !important;
+}
+#details1
+,#details2
+,#details3
+,#details4
+,#details5
+,#details6{
+    display:flex;
+    visibility:hidden;
+    position: absolute;
+    width: 1000px;
+    background-color: rgb(0, 128, 128);
+    z-index: 1; 
+    border-radius: 10px; 
+    height:400px ;  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+p button{
+    background-color: rgb(14, 192, 148)!important;
+}
+/* #side-btn1
+,#side-btn2
+,#side-btn3
+,#side-btn4
+,#side-btn5
+,#side-btn6{
+    width: 260px !important;
+    display:block;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+#sideHiddenBtn1{
+    display:flex;
+    visibility: hidden;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+#sideHiddenBtn1 a button{
+    background-color:teal;
+    border-radius: 3px;
+    display:block;
+    width: 200px !important;
+    font-size: 20px;
+    font-weight: bold;
+} */
+footer div{
+    text-align: center;
+}
+footer div #f{
+    font-size: 28px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+footer div a img{
+    position: relative;
+    top: -30px;
+    height: 30px;
+    margin: 20px
+}
+footer{
+    background-color: rgba(39, 155, 155, 0.719);
+    position: relative;
+    bottom: -100px;
+} 
+.rights{
+    position: relative;
+    bottom: 20px;
+}
+.border{
+    border-radius: 12px;
+}
+#footer-icons a img{
+    width: 50px;
+    border-radius: 12px;
+    margin: 40px 20px
+}
+#nav{
+    background-color: rgb(0 128 128);
+}
+.clear{
+    clear: both;
+}
+#form{
+    position: relative;
+    left: 100px;
+    margin-bottom: 100px;
+    background-color: cadetblue;
+}
+form button{
+    margin-bottom: 20px;
+}
+#loginForm{
+    visibility: hidden;
+    position: absolute;
+    left: 160px;
+    top: 114px;
+    margin-bottom: 100px;
+    background-color: cadetblue;
+}
+#p-h-form input, textarea{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#p-h-form #send-massage{
+    margin: 20px 0;
+}
+#nav-color{
+    color: brown !important;
+}
+#nav-link-color ul li a{
+    color: brown !important;
+    font-size: 20px;
+}
+#p-h-form2 div #photo,#city{
+    margin-bottom: 30px;
+}
+.sub-res input{
+    margin-bottom: 20px;
+}
+#withfamily{
+    visibility: hidden;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    background-color: rgba(39, 155, 155, 0.719);
+    border: blue solid 1px;
+    border-radius: 10px;
+}
+#withfamily #nofm, label{
+    margin-left: 20px;
+}
+#nofm{
+    width: 200px;
+}

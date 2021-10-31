@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Ticket</title>
+    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="css/bootstrap_4.css">
+    <script src="js/script.js" ></script>
+</head>
+<body  onscroll="scroll()" >
+    <!-- start Navegation Bar -->
+        <div>   
+            <!-- Stert Upper Navbar  -->
+            <div>
+                <div  class="upper-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <img class="imgicon" src="image/call-us.png">
+                                <span class="header-span">+967 77 60 10 616</span>
+                                <img class="imgicon" src="image/contact-us.png">
+                                <span class="header-span">TravelInSafe_2021@gmail.com</span>
+                            </div>
+                            <div class="col-lg text-right">
+                                <!-- <img class="imgicon" src="image/shoping.png"> -->
+                                <span  class="header-span">Travel<span>In</span>Safe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <!-- End Upper Navbar-->
+            
+            <!-- Start Botton Navbar -->
+            <div id="upper-navbar">
+                <nav id="nav" class="navbar navbar-expand-lg ">
+                    <div  class="container">
+                        <div id="nav-color" class="h4">
+                            <span class="firstn">Hamdi</span><span class="lastn">Maweri</span>
+                                <label for ="input" id="search" >Search</label>
+                                <input id ="input" value="" type="text">
+
+                        </div>
+                        <div id="main-nav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="sign-in.html">Sign In</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <hr>
+                <span class="clear"></span>
+            </div>
+            <!-- End Botton Navbar -->
+        </div>
+    <!-- End Navegation Bar -->
+    <!-- Stast Main Content -->
+        <div id="form" class="col-lg-6 offset-3 border border-info">
+            <div class="container ">
+                <h2>Get a Ticket</h2>
+                <form id="p-h-form2">
+                    
+                    <div class="a">
+                        <label for="name">Full Name:</label>
+                        <input class="form-control" placeholder=" Full Name" 
+                        name="name" id="name" type="text"> <br>
+                    </div>
+                    <div class="a">
+                        <label for="user">Passport No.</label>
+                        <input class="form-control" placeholder=" Passport No." 
+                        name="user" id="user" type="email"> <br>
+                    </div>
+                    <div > 
+                        <label for="city">From:</label>
+                        <select class="form-control" name="city" id="city" title="City" >
+                            <option selected value="Sanaa">Sanaa</option>
+                            <option value="Aden">Aden</option>
+                            <option value="Taiz">Taiz</option>
+                            <option value="Almokala">Almokala</option>
+                            <option value="Alhodaida">Alhodaida</option>
+                            <option value="Hadramot">Hadramot</option>
+                            <option value="ALbaidha">ALbaidha</option>
+                            <option value="Saada">Saada</option>
+                            <option value="Almahrah">Almahrah</option>
+                            <option value="Hakah">Hakah</option>
+                            <option value="Ebb">Ebb</option>
+                            <option value="Soqatra">Soqatra</option>
+                            <option value="Abean">Abean</option>
+                            <option value="Maareb">Maareb</option>
+                            <option value="Lahj">Lahj</option>
+                        </select>
+                    </div>
+                    <div > 
+                        <label for="city">To:</label>
+                        <select class="form-control" name="city" id="city" title="City" >
+                            <option value="Sanaa">Sanaa</option>
+                            <option selected value="Aden">Aden</option>
+                            <option value="Taiz">Taiz</option>
+                            <option value="Almokala">Almokala</option>
+                            <option value="Alhodaida">Alhodaida</option>
+                            <option value="Hadramot">Hadramot</option>
+                            <option value="ALbaidha">ALbaidha</option>
+                            <option value="Saada">Saada</option>
+                            <option value="Almahrah">Almahrah</option>
+                            <option value="Hakah">Hakah</option>
+                            <option value="Ebb">Ebb</option>
+                            <option value="Soqatra">Soqatra</option>
+                            <option value="Abean">Abean</option>
+                            <option value="Maareb">Maareb</option>
+                            <option value="Lahj">Lahj</option>
+                        </select>
+                    </div>
+                    <div class="gender">
+                        <input  onclick="alone()" name="gender" id="female" type="radio">
+                        <label for="female">Alone</label> 
+                        <input onclick="withFamily()" name="gender" id="male" type="radio">
+                        <label  for="male">With Family</label>
+                        <div id="withfamily">
+                            <label for="nofm">Number Of Family Members:</label>
+                            <input class="form-control" name="nofm" id="nofm" type="number"> <br>
+                        </div>
+                    </div>
+                    <div class="a"> 
+                    <label for="phone">Phone Number:</label>
+                    <input class="form-control" placeholder=" Phone Number" 
+                    name="phone" id="phone" type="tel"> <br>
+                    </div>
+                    <div class="b">
+                        <label for="photo">Passport Photo:</label>
+                        <input  class="form-control" id="photo" name="photo" type="file">
+                    </div>
+                    <div class="sub-res">
+                        <input class="form-control" type="submit" value="Get a Ticket" >
+                        <input class="form-control" type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    <!-- End Main Content -->
+</body>
+</html>
